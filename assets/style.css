@@ -2,46 +2,54 @@ h1 {
   text-align: center;
 }
 
+h3 {
+  color: green;
+}
+
 .contenaire {
   display: grid;
   grid-template-columns: repeat(4, 25%);
-  grid-template-rows: repeat(5, 20%);
   margin-left: 25px;
   margin-right: 50px;
   padding: 10px;
   grid-gap: 10px;
+  /**
+  .item2{
+      padding: $padding5 ;
+      img{
+          height:$sizeImgHeight;
+          width: $sizeImgWidth;
+          position: $positionImg;
+          left: $positionLeftImg;     
+      }
+  }
+
+
+  .item3{
+      padding: $padding5 ;
+      img{
+          height:$sizeImgHeight;
+          width: $sizeImgWidth;
+          position: $positionImg;
+          left: $positionLeftImg; 
+      }
+  }
+
+  .item4{
+      padding: $padding5;
+      img{
+          height:$sizeImgHeight;
+          width: $sizeImgWidth;
+          position: $positionImg;
+          left: $positionLeftImg; 
+      } 
+  }
+  */
 }
-.contenaire .item1 {
+.contenaire .item {
   padding: 5%;
 }
-.contenaire .item1 img {
-  height: 90px;
-  width: 80px;
-  position: relative;
-  left: 30%;
-}
-.contenaire .item2 {
-  padding: 5%;
-}
-.contenaire .item2 img {
-  height: 90px;
-  width: 80px;
-  position: relative;
-  left: 30%;
-}
-.contenaire .item3 {
-  padding: 5%;
-}
-.contenaire .item3 img {
-  height: 90px;
-  width: 80px;
-  position: relative;
-  left: 30%;
-}
-.contenaire .item4 {
-  padding: 5%;
-}
-.contenaire .item4 img {
+.contenaire .item img {
   height: 90px;
   width: 80px;
   position: relative;
@@ -49,27 +57,31 @@ h1 {
 }
 
 @media screen and (max-width: 768px) {
-  .item1 {
+  .item {
     grid-column: 1/4;
   }
 
-  .item2 {
-    grid-row: 2/3;
-    /*width: 200%;*/
-    grid-column: 1/4;
-  }
+  /** .item2{
+      grid-row: 2/3;
+      width: 200%; grid-column: 1/4;
 
-  .item3 {
-    grid-row: 3/4;
-    /*width: 200%;*/
-    grid-column: 1/4;
+  } 
+  */
+  /*
+  .item3{
+      grid-row: 3/4;
+      width: 200%;
+      grid-column: 1/4;
   }
-
-  .item4 {
-    grid-row: 4/5;
-    grid-column: 1/4;
-    /*width: 200%;*/
+  */
+  /*
+  .item4{
+      grid-row: 4/5;
+      grid-column: 1/4;
+     width: 200%;
   }
+  */
 }
+/**Interface 2**/
 
 /*# sourceMappingURL=style.css.map */
