@@ -92,7 +92,7 @@ h3 {
   }
   */
 }
-/**Interface 2**/
+/**************************************Interface 2*************************************/
 .card {
   position: relative;
   left: 29%;
@@ -124,6 +124,10 @@ h3 {
   left: 0;
 }
 
+.btn {
+  margin-left: 40%;
+}
+
 @media screen and (max-width: 768px) {
   table th {
     position: relative;
@@ -149,6 +153,12 @@ h3 {
     position: relative;
     left: 5%;
     padding: 5%;
+  }
+
+  img {
+    width: 50%;
+    position: relative;
+    right: 4%;
   }
 }
 

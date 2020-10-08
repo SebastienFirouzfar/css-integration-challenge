@@ -3,7 +3,7 @@ $padding5 : 5% ;
 $margin8 : 8%;  
 $sizeImgHeight :90px ; 
 $sizeImgWidth :80px; 
-$positionImg :relative;
+$positionRelative :relative;
 $positionLeftImg :30%;  
 $colorH3 :green; 
 
@@ -29,7 +29,7 @@ h3{
         img{
             height:$sizeImgHeight;
             width: $sizeImgWidth;  
-            position: $positionImg;
+            position: $positionRelative;
             left: $positionLeftImg;  
         }
     }
@@ -79,7 +79,7 @@ h3{
         flex-direction: column;
         text-align: center;
         .item img{
-            position: relative;
+            position: $positionRelative;
             left: 0;
         }
     }
@@ -110,9 +110,9 @@ h3{
     */
 }
 
-/**Interface 2**/
+/**************************************Interface 2*************************************/
 .card{
-    position: relative;
+    position: $positionRelative;
     left: 29%;
     margin-left: 30px;
     margin-right: 30px;
@@ -122,56 +122,67 @@ h3{
     }
 
     img{
-        position: relative;
+        position: $positionRelative;
         right: 4%;
+        
     }
 
     table th {
-        position: relative;
+        position: $positionRelative;
         right:14%;
     }
 
     table td {
-        position: relative;
+        position: $positionRelative;
         right:14%;
     }
 
     .userAndNumber{
-        position: relative;
+        position: $positionRelative;
         left: 27%;
     }
     
     .topActive{
-        position: relative;
+        position: $positionRelative;
         left: 0;
     }    
 }
 
+.btn{
+    margin-left: 40%;
+}
+
 @media screen and (max-width: 768px){
     table th {
-        position: relative;
+        position: $positionRelative;
         right:10%;
     }
 
     table td {
-        position: relative;
+        position: $positionRelative;
         right:10%;
     }
 
     .userAndNumber{
-        position: relative;
+        position: $positionRelative;
         left: 23%;
     }
     
     .topActive{
-        position: relative;
+        position: $positionRelative;
         left: 0;
     } 
     
     .card{
-        position: relative;
+        position: $positionRelative;
         left: 5%;
         padding: 5%;
+    }
+
+    img{
+        width: 50%;
+        position: $positionRelative;
+        right: 4%;
     }
 }
 
