@@ -95,7 +95,25 @@ h3 {
 /**Interface 2**/
 .card {
   position: relative;
-  left: 40%;
+  left: 29%;
+  margin-left: 30px;
+  margin-right: 30px;
+  padding: 3%;
+}
+.card .interface2H1 {
+  text-align: left;
+}
+.card img {
+  position: relative;
+  left: 1%;
+}
+.card .userAndNumber {
+  position: relative;
+  left: 37%;
+}
+.card .topActive {
+  position: relative;
+  left: 0;
 }
 
 /*# sourceMappingURL=style.css.map */
