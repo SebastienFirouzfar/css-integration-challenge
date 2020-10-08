@@ -84,6 +84,47 @@ h3{
         }
     }
 
+    table th {
+        position: $positionRelative;
+        right:10%;
+    }
+
+    table td {
+        position: $positionRelative;
+        right:10%;
+    }
+
+    .userAndNumber{
+        position: $positionRelative;
+        left: 23%;
+    }
+    
+    .topActive{
+        position: $positionRelative;
+        left: 0;
+    } 
+    
+    .card{
+        position: $positionRelative;
+        left: 5%;
+        padding: 5%;
+    }
+
+    img{
+        width: 50%;
+        position: $positionRelative;
+        right: 4%;
+    }
+
+    .card-title{
+        margin-top: 10%;
+    }
+
+    .card-img{
+        position: $positionRelative;
+        left: 1%;
+    }
+
 
 
     /** .item2{
@@ -152,37 +193,16 @@ h3{
     margin-left: 40%;
 }
 
-@media screen and (max-width: 768px){
-    table th {
-        position: $positionRelative;
-        right:10%;
-    }
 
-    table td {
-        position: $positionRelative;
-        right:10%;
-    }
 
-    .userAndNumber{
-        position: $positionRelative;
-        left: 23%;
-    }
-    
-    .topActive{
-        position: $positionRelative;
-        left: 0;
-    } 
-    
-    .card{
-        position: $positionRelative;
-        left: 5%;
-        padding: 5%;
-    }
-
-    img{
-        width: 50%;
-        position: $positionRelative;
-        right: 4%;
-    }
+/*********************Interface3************************/
+.avatar{
+    width: $sizeImgWidth;
+    height: $sizeImgHeight;
 }
 
+.card-img{
+    margin-bottom: 14px;
+    height: 108%;
+    width: 90%;
+}

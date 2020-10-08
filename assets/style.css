@@ -71,6 +71,47 @@ h3 {
     left: 0;
   }
 
+  table th {
+    position: relative;
+    right: 10%;
+  }
+
+  table td {
+    position: relative;
+    right: 10%;
+  }
+
+  .userAndNumber {
+    position: relative;
+    left: 23%;
+  }
+
+  .topActive {
+    position: relative;
+    left: 0;
+  }
+
+  .card {
+    position: relative;
+    left: 5%;
+    padding: 5%;
+  }
+
+  img {
+    width: 50%;
+    position: relative;
+    right: 4%;
+  }
+
+  .card-title {
+    margin-top: 10%;
+  }
+
+  .card-img {
+    position: relative;
+    left: 1%;
+  }
+
   /** .item2{
       grid-row: 2/3;
       width: 200%; grid-column: 1/4;
@@ -128,38 +169,16 @@ h3 {
   margin-left: 40%;
 }
 
-@media screen and (max-width: 768px) {
-  table th {
-    position: relative;
-    right: 10%;
-  }
+/*********************Interface3************************/
+.avatar {
+  width: 80px;
+  height: 90px;
+}
 
-  table td {
-    position: relative;
-    right: 10%;
-  }
-
-  .userAndNumber {
-    position: relative;
-    left: 23%;
-  }
-
-  .topActive {
-    position: relative;
-    left: 0;
-  }
-
-  .card {
-    position: relative;
-    left: 5%;
-    padding: 5%;
-  }
-
-  img {
-    width: 50%;
-    position: relative;
-    right: 4%;
-  }
+.card-img {
+  margin-bottom: 14px;
+  height: 108%;
+  width: 90%;
 }
 
 /*# sourceMappingURL=style.css.map */
