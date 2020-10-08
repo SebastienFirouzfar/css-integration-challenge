@@ -107,9 +107,17 @@ h3 {
   position: relative;
   left: 1%;
 }
+.card table th {
+  position: relative;
+  right: 14%;
+}
+.card table td {
+  position: relative;
+  right: 14%;
+}
 .card .userAndNumber {
   position: relative;
-  left: 37%;
+  left: 27%;
 }
 .card .topActive {
   position: relative;

@@ -126,15 +126,24 @@ h3{
         left: 1%;
     }
 
-    .userAndNumber{
+    table th {
         position: relative;
-        left: 37%;
+        right:14%;
     }
 
+    table td {
+        position: relative;
+        right:14%;
+    }
+
+    .userAndNumber{
+        position: relative;
+        left: 27%;
+    }
+    
     .topActive{
         position: relative;
         left: 0;
-    }
-    
+    }    
 }
 
