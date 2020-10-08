@@ -105,7 +105,7 @@ h3 {
 }
 .card img {
   position: relative;
-  left: 1%;
+  right: 4%;
 }
 .card table th {
   position: relative;
@@ -122,6 +122,33 @@ h3 {
 .card .topActive {
   position: relative;
   left: 0;
+}
+
+@media screen and (max-width: 768px) {
+  table th {
+    position: relative;
+    right: 10%;
+  }
+
+  table td {
+    position: relative;
+    right: 10%;
+  }
+
+  .userAndNumber {
+    position: relative;
+    left: 23%;
+  }
+
+  .topActive {
+    position: relative;
+    left: 0;
+  }
+
+  .card {
+    position: relative;
+    left: 10%;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
