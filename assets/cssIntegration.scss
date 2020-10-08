@@ -74,6 +74,18 @@ h3{
         grid-column: 1/4;
     }
 
+    .contenaire{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        .item img{
+            position: relative;
+            left: 0;
+        }
+    }
+
+
+
     /** .item2{
         grid-row: 2/3;
         width: 200%; grid-column: 1/4;
@@ -99,3 +111,7 @@ h3{
 }
 
 /**Interface 2**/
+.card{
+    position: relative;
+    left: 40%;
+}
