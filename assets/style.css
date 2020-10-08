@@ -1,0 +1,75 @@
+h1 {
+  text-align: center;
+}
+
+.contenaire {
+  display: grid;
+  grid-template-columns: repeat(4, 25%);
+  grid-template-rows: repeat(5, 20%);
+  margin-left: 25px;
+  margin-right: 50px;
+  padding: 10px;
+  grid-gap: 10px;
+}
+.contenaire .item1 {
+  padding: 5%;
+}
+.contenaire .item1 img {
+  height: 90px;
+  width: 80px;
+  position: relative;
+  left: 30%;
+}
+.contenaire .item2 {
+  padding: 5%;
+}
+.contenaire .item2 img {
+  height: 90px;
+  width: 80px;
+  position: relative;
+  left: 30%;
+}
+.contenaire .item3 {
+  padding: 5%;
+}
+.contenaire .item3 img {
+  height: 90px;
+  width: 80px;
+  position: relative;
+  left: 30%;
+}
+.contenaire .item4 {
+  padding: 5%;
+}
+.contenaire .item4 img {
+  height: 90px;
+  width: 80px;
+  position: relative;
+  left: 30%;
+}
+
+@media screen and (max-width: 768px) {
+  .item1 {
+    grid-column: 1/4;
+  }
+
+  .item2 {
+    grid-row: 2/3;
+    /*width: 200%;*/
+    grid-column: 1/4;
+  }
+
+  .item3 {
+    grid-row: 3/4;
+    /*width: 200%;*/
+    grid-column: 1/4;
+  }
+
+  .item4 {
+    grid-row: 4/5;
+    grid-column: 1/4;
+    /*width: 200%;*/
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
